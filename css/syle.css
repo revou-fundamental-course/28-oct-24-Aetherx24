@@ -1,1 +1,56 @@
 /* ini css */
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type=text] select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.color-section{
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 8px;
+    display: table;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#result {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    padding: 1px;
+    border-radius: 2px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    display: table row;
+}
+
+label {
+    display: table-cell;
+    text-align: center;
+}
+
+input {
+    display: table-cell;
+}
