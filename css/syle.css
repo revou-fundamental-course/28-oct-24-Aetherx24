@@ -4,9 +4,9 @@ main{
     justify-content: space-around;
 }
 
-input[type=text] select {
+input[type=number] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 10px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -31,10 +31,11 @@ input[type=text] select {
 }
 
 .button{
-    background-color: green;
+    background-color: blue;
+    border: 0;
     color: white;
-    padding: 1px;
-    border-radius: 2px;
+    padding: 4px;
+    border-radius: 8px;
 
 }
 
