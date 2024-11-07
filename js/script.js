@@ -4,7 +4,7 @@ function calculateBMI() {
 
     // Get Value from input form  
     const berat = parseFloat(document.getElementById("berat-badan").value);
-    const tinggi = parseFloat(document.getElementById("tinggi-badan").value)/100; // konversi cm ke meter
+    const tinggi = parseFloat(document.getElementById("tinggi-badan").value)/100; // cm to meter conversion
 
     // Get Value for Gender 
     const gender = document.querySelector('input[name="jen-kel"]:checked').value;
@@ -19,7 +19,7 @@ function calculateBMI() {
 
     // BMI Calculations 
     const bmi = berat / (tinggi*tinggi)
-    const roundedBMI = bmi.toFixed(1);  // hasil akan dibulatkan ke 1 desimal 
+    const roundedBMI = bmi.toFixed(1);  // result will be rounded to 1 decimal point
 
     // Determining BMI Category 
     let Category ;
@@ -34,7 +34,7 @@ function calculateBMI() {
         Category = "berat badan berlebih"
         advice = "Anda memiliki berat badan berlebih. Cobalah berolahraga secara teratur dan jaga pola makan untuk mencapai berat badan yang sehat."
     } else {
-        Category = "Obesitas";
+        Category = "obesitas";
         advice = "Hasil BMI Anda menunjukkan obesitas. Sebaiknya anda menjaga pola makan sehat dan berkonsultasi dengan profesional untuk bimbingan lebih lanjut.";
     }
 
