@@ -25,7 +25,7 @@ function calculateBMI() {
     let Category ;
     let advice ;
     if (bmi < 18.5) {
-        Category = "Kekurangan Berat Badan"
+        Category = "kekurangan berat badan"
         advice = "Anda berada dalam kategori kekurangan berat badan. Pertimbangkan untuk makan makanan bergizi dan menambah asupan kalori.";
     } else if (bmi >= 18.5 && bmi < 24.9) {
         Category = "normal (sehat)";

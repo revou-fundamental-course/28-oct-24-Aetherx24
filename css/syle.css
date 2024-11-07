@@ -25,6 +25,7 @@ header{
     line-height: 1.6;
     padding-left: 60px;
     padding-bottom: 20px;
+    text-align: center;
 
 }
 
@@ -120,35 +121,6 @@ footer{
     text-align: center;
 }
 
-/* Responsive for extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
-    main{
-        /* display: flex;
-        justify-content: space-around;
-        align-items: flex-start; */
-        flex-direction: column;
-    }
-
-    .store-buttons {
-        display: inline-flex;
-        align-items: center; 
-        padding-left: 10px;
-      }
-
-    .color-section{
-        margin: auto;
-        padding-left: 10px;
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        border-radius: 8px;
-        background-color: aliceblue;
-        font-family: Tahoma;
-        font-size: 13px;
-        
-    }
-}
-
 /* responsive for small devices and tablets */
 @media (min-width: 600px) and (max-width: 795px) {
     main{        
@@ -174,4 +146,29 @@ footer{
         
     }
   }
-  
+
+  /* Responsive for extra small devices */
+@media (max-width: 600px) {
+    main{
+        flex-direction: column;
+    }
+
+    .store-buttons {
+        display: inline-flex;
+        align-items: center; 
+        padding-left: 10px;
+      }
+
+    .color-section{
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 8px;
+        background-color: aliceblue;
+        font-family: Tahoma;
+        font-size: 13px;
+        
+    }
+}
